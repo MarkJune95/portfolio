@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #d9dcd6;
+    font-size: 16px;
+    
+    
+}
+h1{
+    font-size: 25px;
+}
+h2 {
+    font-size: 20px;
+}
+.header {
+    height: 50px;
+    padding-top: 10px; 
+    padding-bottom: 45px; 
+    background-color:rgb(71, 65, 65);
+    
+}
+.content{
+    margin-top: 120px;
+}
+
+#my-name{
+    background-color: cadetblue;
+    display: inline-block;
+    padding: 5px;
+    padding-left: 35px;
+}
+#myphoto{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(106, 126, 161);
+    margin-left: 300px;
+    
+}
+nav {
+    padding-top: 10px;
+    margin-right: 50px;
+    float: right;    
+}
+ul {
+    list-style-type: none;
+   
+}
+
+nav ul li{
+    display: inline-block;  
+}
+a {
+    
+    margin-left: 25px;
+    text-decoration: none;
+    color:cadetblue;
+    font-weight: bolder;
+
+}
+
+.sub-header {
+    background-color: rgb(15, 70, 71);
+    height: 100px;
+    
+}
+#sub-header {
+    float: right;
+    margin-right: 50px;
+    margin-top: 55px;
+    background-color: cadetblue;
+    padding: 5px;
+}
+
+
+.my-info{
+    margin-top: 20px;
+    margin-left: 40px; 
+    padding-right: 20px;
+}
+
+.info-description{
+    margin-left: 200px;
+    margin-top: -25px;
+    border-left: 5px solid grey;
+    padding-left: 20px;
+}
+.cards {
+    width: 650px;
+    height: 200px;
+    margin: 10px;
+    background-color: burlywood;
+
+}
+
+.cards h2{
+    display:flex;
+    width: fit-content;
+    padding: 15px;
+    padding-right: 55px;
+    background-color: cadetblue; 
+    margin-top: 115px;
+    padding-bottom: 38px;
+    
+
+}
+
+
+.cards p{
+    margin-top: -30px;
+    margin-left: 15px;
+}
+
+#work {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.info-description ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+
+
+
+@media only screen and (max-width: 650px ) {
+    #my-name{
+        padding-left: 15px;
+
+    }
+    nav ul li{
+        margin-left: 15px;
+
+    }
+    nav{
+        margin-right: 15px;
+    } 
+    .header a{
+        margin-left: 0px;
+
+    }
+    .my-info{
+        margin-left: 20px; 
+        padding-right: 10px;  
+            
+    }
+    .info-description{
+        margin-left: 150px;
+        padding-left: 10px;
+    }
+    .cards {
+
+        width: 500px;
+        height: 100px;
+
+
+    }
+    .cards h2{
+        margin-top: 15px;
+    
+    }
+    
+    #myphoto {
+        margin-left: 30px;
+    }
+    
+
+}
+
